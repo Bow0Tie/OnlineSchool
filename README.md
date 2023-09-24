@@ -23,9 +23,9 @@ Simple architecture and API implemented as a test task for training purposes.
 
 ![alt text](https://github.com/Bow0Tie/OnlineSchool/blob/main/examples/UserTutorials_table.png?raw=true)
 
-## Rquests examples / Примеры запросов
+## Requests examples / Примеры запросов
 
-[a link](https://github.com/Bow0Tie/OnlineSchool/blob/main/examples/all%20requests%20collection.json)
+Requests exported from Postman / Экспорт запросов из постмана [file](https://github.com/Bow0Tie/OnlineSchool/blob/main/examples/all%20requests%20collection.json)
 
 ## Responses examples / Примеры ответов
 
