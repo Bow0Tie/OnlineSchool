@@ -86,6 +86,8 @@ user_id = 7
 
 ```
 
+File [link](https://github.com/Bow0Tie/OnlineSchool/blob/main/examples/user%20get%20all%20tutorials%20by%20products%20user_id%207.json) / Ссылка на [файл](https://github.com/Bow0Tie/OnlineSchool/blob/main/examples/user%20get%20all%20tutorials%20by%20products%20user_id%207.json)
+
 ### User get all tutorials by specific product / Получение пользователем статистики по всем урокам по конкретному продукту
 
 user_id = 7
@@ -128,6 +130,8 @@ product_id = 8
 
 ```
 
+File [link](https://github.com/Bow0Tie/OnlineSchool/blob/main/examples/user%20get%20all%20tutorials%20by%20specific%20product%20user_id%207%20product_id%208.json) / Ссылка на [файл](https://github.com/Bow0Tie/OnlineSchool/blob/main/examples/user%20get%20all%20tutorials%20by%20specific%20product%20user_id%207%20product_id%208.json)
+
 ### Get statistic by all products / Получение статистики по всем урокам по всем продуктам на платформе
 
 ```json
@@ -154,3 +158,5 @@ product_id = 8
 }
 
 ```
+
+File [link](https://github.com/Bow0Tie/OnlineSchool/blob/main/examples/get%20statistic%20by%20all%20products.json) / Ссылка на [файл](https://github.com/Bow0Tie/OnlineSchool/blob/main/examples/user%20get%20all%20tutorials%20by%20specific%20product%20user_id%207%20product_id%208.json)
