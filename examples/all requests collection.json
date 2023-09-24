@@ -1,0 +1,303 @@
+{
+	"info": {
+		"_postman_id": "13700bb1-2ec0-4edc-8660-fced803ec37c",
+		"name": "School",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22090419"
+	},
+	"item": [
+		{
+			"name": "create user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_name",
+							"value": "Andrey",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/cu",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"cu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "product_name",
+							"value": "Cats and Dogs",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/cp",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"cp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create tutorial",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "products_id",
+							"value": "7 8",
+							"type": "text"
+						},
+						{
+							"key": "tutorial_name",
+							"value": "Dog2",
+							"type": "text"
+						},
+						{
+							"key": "video_url",
+							"value": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+							"type": "text"
+						},
+						{
+							"key": "video_length",
+							"value": "1000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/ct",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"ct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user buy product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "9",
+							"type": "text"
+						},
+						{
+							"key": "product_id",
+							"value": "6",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/ugp",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"ugp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user watch tutorial",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "7",
+							"type": "text"
+						},
+						{
+							"key": "tutorial_id",
+							"value": "8",
+							"type": "text"
+						},
+						{
+							"key": "watch_time",
+							"value": "800",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/uwt",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"uwt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user get all tutorials by products",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "7",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/ugtbp",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"ugtbp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user get all tutorials by specific product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "7",
+							"type": "text"
+						},
+						{
+							"key": "product_id",
+							"value": "8",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/ugtbsp",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"ugtbsp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get statistic by all products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/gsbap",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"gsbap"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
