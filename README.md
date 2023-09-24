@@ -7,3 +7,4 @@ Simple architecture and API implemented as a test task for training purposes.
 
 Examles / Примеры выполнения
 
+![alt text](https://github.com/Bow0Tie/OnlineSchool/blob/master/images/Tutorials_table.png?raw=true)
