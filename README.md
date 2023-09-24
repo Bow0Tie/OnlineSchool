@@ -23,9 +23,13 @@ Simple architecture and API implemented as a test task for training purposes.
 
 ![alt text](https://github.com/Bow0Tie/OnlineSchool/blob/main/examples/UserTutorials_table.png?raw=true)
 
+## Rquests examples / Примеры запросов
+
+[a link](https://github.com/Bow0Tie/OnlineSchool/blob/main/examples/all%20requests%20collection.json)
+
 ## Responses examples / Примеры ответов
 
-### Получение пользователем статистики по всем урокам по всме продуктам
+### User get all tutorials by products / Получение пользователем статистики по всем урокам по всме продуктам
 
 user_id = 7
 
@@ -82,3 +86,71 @@ user_id = 7
 
 ```
 
+### User get all tutorials by specific product / Получение пользователем статистики по всем урокам по конкретному продукту
+
+user_id = 7
+product_id = 8
+
+```json
+
+{
+    "Cats and Dogs": [
+        {
+            "Cat1": [
+                0,
+                false,
+                "2023-09-23T11:47:23.696Z"
+            ]
+        },
+        {
+            "Cat3": [
+                0,
+                false,
+                "2023-09-23T11:47:23.696Z"
+            ]
+        },
+        {
+            "Dog1": [
+                0,
+                false,
+                "2023-09-23T11:47:23.696Z"
+            ]
+        },
+        {
+            "Dog3": [
+                800,
+                true,
+                "2023-09-23T11:48:07.048Z"
+            ]
+        }
+    ]
+}
+
+```
+
+### Get statistic by all products / Получение статистики по всем урокам по всем продуктам на платформе
+
+```json
+
+{
+    "Cats": {
+        "Total watches": 0,
+        "Total watch time": null,
+        "Total students": 2,
+        "Conversion": "40 %"
+    },
+    "Dogs": {
+        "Total watches": 1,
+        "Total watch time": 800,
+        "Total students": 2,
+        "Conversion": "40 %"
+    },
+    "Cats and Dogs": {
+        "Total watches": 1,
+        "Total watch time": 800,
+        "Total students": 1,
+        "Conversion": "20 %"
+    }
+}
+
+```
