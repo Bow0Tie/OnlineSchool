@@ -31,7 +31,54 @@ user_id = 7
 
 ```json
 
-{"Cats": [{"Cat1": [0, false]}, {"Cat2": [0, false]}, {"Cat3": [0, false]}], "Cats and Dogs": [{"Cat1": [0, false]}, {"Cat3": [0, false]}, {"Dog1": [0, false]}, {"Dog3": [800, true]}]}
+{
+    "Cats": [
+        {
+            "Cat1": [
+                0,
+                false
+            ]
+        },
+        {
+            "Cat2": [
+                0,
+                false
+            ]
+        },
+        {
+            "Cat3": [
+                0,
+                false
+            ]
+        }
+    ],
+    "Cats and Dogs": [
+        {
+            "Cat1": [
+                0,
+                false
+            ]
+        },
+        {
+            "Cat3": [
+                0,
+                false
+            ]
+        },
+        {
+            "Dog1": [
+                0,
+                false
+            ]
+        },
+        {
+            "Dog3": [
+                800,
+                true
+            ]
+        }
+    ]
+}
 
 ```
 
