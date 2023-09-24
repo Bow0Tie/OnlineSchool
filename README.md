@@ -160,4 +160,4 @@ File [link](https://github.com/Bow0Tie/OnlineSchool/blob/main/examples/user%20ge
 
 ```
 
-File [link](https://github.com/Bow0Tie/OnlineSchool/blob/main/examples/get%20statistic%20by%20all%20products.json) / Ссылка на [файл](https://github.com/Bow0Tie/OnlineSchool/blob/main/examples/user%20get%20all%20tutorials%20by%20specific%20product%20user_id%207%20product_id%208.json)
+File [link](https://github.com/Bow0Tie/OnlineSchool/blob/main/examples/get%20statistic%20by%20all%20products.json) / Ссылка на [файл](https://github.com/Bow0Tie/OnlineSchool/blob/main/examples/get%20statistic%20by%20all%20products.json)
