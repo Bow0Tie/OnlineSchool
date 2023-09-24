@@ -9,6 +9,7 @@ Examles / Примеры выполнения
 
 
 ![alt text](https://github.com/Bow0Tie/OnlineSchool/blob/main/examples/users_table.png?raw=true)
+
 Записи в таблице User
 
 
